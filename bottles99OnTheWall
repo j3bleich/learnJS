@@ -1,0 +1,45 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lan="en-US">
+<head>
+	<title>Head First!</title>
+	<meta charset="UTF-8">
+
+	<script type="text/javascript">
+
+	    var count = 99;
+	    var word = " bottles ";
+	    var compWord = count + word + "of beer on the wall.";
+
+	    while (count > 0) {
+	    	console.log(compWord);
+	    	console.log(count + word + "of beer,");
+	    	console.log("Take one down pass it around,");
+
+	    	count --;
+
+            if (count > 1) {
+            		console.log(compWord);
+            }
+
+	    	else if (count == 1) {
+	    		word = " bottle ";
+	    		console.log(compWord);
+	    	}
+	    	
+	    	else {
+                word = " bottles "; 
+             	console.log("No more" + word + wordTwo);
+	    	}
+	    }
+
+	    if (count == 0) {
+	    	count = count + 99;
+	        console.log("Go to the store and buy some more, " + compWord)
+        }
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>>
